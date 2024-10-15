@@ -1349,6 +1349,9 @@ section,
 /*--------------------------------------------------------------
 # Portfolio Section
 --------------------------------------------------------------*/
+.portfolio {
+  background-color: var(--background-color);
+}
 .portfolio .portfolio-filters {
   padding: 0;
   margin: 0 auto 20px auto;
@@ -1580,7 +1583,7 @@ section,
 # Pricing Section
 --------------------------------------------------------------*/
 .pricing {
-  background-color: var(--background-color);
+  background-color: white;
 }
 .pricing .pricing-item {
   background-color: var(--surface-color);
@@ -1804,7 +1807,7 @@ section,
 }
 .testimonials{
   /* background-color: #f29829de; */
-  background-color: white;
+  background-color: var(--background-color);
 }
 @media (min-width: 992px) {
   .testimonials .testimonial-item p {
@@ -1816,7 +1819,7 @@ section,
 # Faq 2 Section
 --------------------------------------------------------------*/
 .faq-2{
-  background-color: var(--background-color);
+  background-color: white;
 }
 
 .faq-2 .faq-container {
@@ -1842,7 +1845,7 @@ section,
   margin: 0 30px 0 32px;
   transition: 0.3s;
   cursor: pointer;
-  color: #444444 !important;
+  color: #444444;
 
 }
 
@@ -1911,7 +1914,7 @@ section,
 # Contact Section
 --------------------------------------------------------------*/
 .contact {
-  background-color: white;
+  background-color: var(--background-color);
 }
 .contact .info-wrap {
   background-color: var(--surface-color);
