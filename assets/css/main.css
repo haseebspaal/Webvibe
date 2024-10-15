@@ -155,6 +155,7 @@ h1 span{
   padding: 15px 0;
   transition: all 0.5s;
   z-index: 997;
+  border-bottom: 1px solid #c9c7c72f;
 }
 
 .header .logo {
@@ -527,7 +528,6 @@ h1 span{
   color: var(--default-color);
   background-color: var(--background-color);
   font-size: 14px;
-  padding-bottom: 50px;
   position: relative;
 }
 
@@ -563,7 +563,6 @@ h1 span{
   border: 0;
   padding: 4px;
   width: 100%;
-  background-color: color-mix(in srgb, var(--background-color), transparent 50%);
   color: var(--default-color);
 }
 
@@ -580,6 +579,11 @@ h1 span{
   color: var(--contrast-color);
   transition: 0.3s;
   border-radius: 50px;
+  border: 2px solid var(--accent-color);
+}
+.footer .footer-newsletter .newsletter-form input[type=submit]:hover {
+  color: var(--accent-color);
+  background-color: white !important;
 }
 
 .footer .footer-newsletter .newsletter-form input[type=submit]:hover {
@@ -894,7 +898,6 @@ section,
 
 .hero .btn-get-started {
   color: var(--accent-color) !important;
-  background: var(--accent-color);
   font-family: var(--heading-font);
   font-weight: 500;
   font-size: 15px;
@@ -903,6 +906,7 @@ section,
   padding: 10px 28px 12px 28px;
   border-radius: 50px;
   transition: 0.5s;
+  border: 2px solid white;
 }
 
 .hero .btn-get-started:hover {
